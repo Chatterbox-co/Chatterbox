@@ -62,6 +62,8 @@
                 $('.validate-input input[name="email"]').val("");
                 $('.validate-input input[name="subject"]').val("");
                 $('.validate-input textarea[name="message"]').val("");
+
+                window.location.href = "index.html";
             },
             function (error) {
                 console.error("Email could not be sent:", error);
