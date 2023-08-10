@@ -48,7 +48,7 @@
         var message = $('.validate-input textarea[name="message"]').val();
 
         // Send email using EmailJS
-        emailjs.send("service_ykmkrcf", "template_ue7jx5x", {
+        emailjs.send("5-BdFRh3uW--TXJOV", "template_ue7jx5x", {
             to_name: "Chatterbox", // Your name or recipient's name
             from_name: name,
             from_email: email,
